@@ -5,3 +5,4 @@ def shell_sort(alist):
     if alist[i] < alist[i-gap]:
         alist[i], alist[i-1] = alist[i-1], alist[i]
     else:
+        print('1')
